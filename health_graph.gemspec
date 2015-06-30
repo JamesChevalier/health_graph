@@ -76,7 +76,6 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<health_graph>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
@@ -86,7 +85,6 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<hashie>, [">= 1.2"])
       s.add_runtime_dependency(%q<webmock>, [">= 1.7.6"])
     else
-      s.add_dependency(%q<health_graph>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<simplecov>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
@@ -97,7 +95,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<webmock>, [">= 1.7.6"])
     end
   else
-    s.add_dependency(%q<health_graph>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<simplecov>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
